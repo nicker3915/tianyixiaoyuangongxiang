@@ -23,6 +23,8 @@ def publish(path):
     else:
         result=run(['release','upload',tag,'--repo',repo,'--clobber',*map(str,assets)]) if assets else found
     if result.returncode:raise RuntimeError(tag+': '+result.stderr)
+    result=run(['release','edit',tag,'--repo',repo,'--draft=false'])
+    if result.returncode:raise RuntimeError(tag+': '+result.stderr)
     print('Published '+tag+' ('+str(len(assets))+' installer assets)',flush=True)
 with ThreadPoolExecutor(max_workers=4) as pool:
     list(pool.map(publish,records))
