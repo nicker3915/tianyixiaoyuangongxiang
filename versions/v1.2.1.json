@@ -1,0 +1,19 @@
+{
+  "version": "1.2.1",
+  "sourceAvailable": true,
+  "assets": [
+    {
+      "path": "C:\\Users\\pc\\Documents\\校园网共享安装包工程\\dist\\校园网共享助手-1.2.1-WiFi与有线版-x64.exe",
+      "name": "校园网共享助手-1.2.1-WiFi与有线版-x64.exe",
+      "sha256": "d6187c92a606715e25516bfdbb92791f5193cc3240870709f59b768511361e66",
+      "bytes": 2203413
+    },
+    {
+      "path": "C:\\Users\\pc\\Desktop\\校园网共享助手-1.2.1\\校园网共享助手-1.2.1-WiFi与有线版-x64.exe",
+      "name": "校园网共享助手-1.2.1-WiFi与有线版-x64.exe",
+      "sha256": "d6187c92a606715e25516bfdbb92791f5193cc3240870709f59b768511361e66",
+      "bytes": 2203413
+    }
+  ],
+  "note": "Imported retained snapshot; original commit history unavailable. Runtime verification is not implied."
+}
