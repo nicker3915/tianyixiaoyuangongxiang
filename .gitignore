@@ -1,0 +1,5 @@
+*.log
+settings.json
+original-startup.json
+ESurfingClient.json
+validation/
