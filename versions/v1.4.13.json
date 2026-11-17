@@ -1,0 +1,32 @@
+{
+  "version": "1.4.13",
+  "sourceAvailable": true,
+  "assets": [
+    {
+      "path": "C:\\Users\\pc\\Desktop\\校园网共享助手-1.4.13\\校园网共享助手-1.4.13-安装程序.exe",
+      "name": "校园网共享助手-1.4.13-安装程序.exe",
+      "repositoryPath": "installers/v1.4.13/CampusNetworkShare-1.4.13.exe",
+      "sha256": "e089de134ba984f913c35788a7340eccadb173c6ce7f0ae6265f4cb49857b588",
+      "bytes": 3463514
+    },
+    {
+      "path": "C:\\Users\\pc\\Desktop\\校园网共享助手-1.4.13\\校园网共享助手-清理与卸载.exe",
+      "name": "校园网共享助手-清理与卸载.exe",
+      "repositoryPath": "installers/v1.4.13/CampusNetworkShare-Cleanup.exe",
+      "sha256": "bcf66381e326773d887cfa1179ce6fda69c57e6ca40ef531fb2897f62bb65c20",
+      "bytes": 1841788
+    }
+  ],
+  "changes": [
+    "安装时可选择创建桌面快捷方式，默认勾选，开始菜单保留入口。",
+    "修复自定义安装路径被后续检查拒绝的问题；快捷方式跟随实际安装路径。"
+  ],
+  "verification": {
+    "installerAssertions": 34,
+    "cleanerWizardAssertions": 13,
+    "embeddedFiles": 45,
+    "defenderScan": "no threats found",
+    "realCampusNetworkRetested": false
+  },
+  "note": "Retained source snapshot and verified clean installers. Existing live installation and network were not modified."
+}

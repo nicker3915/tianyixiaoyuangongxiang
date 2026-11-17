@@ -1,0 +1,3 @@
+# Preserve the verified bytes of this release's source snapshot and installers.
+history/v1.4.13/** -text whitespace=cr-at-eol,-blank-at-eof
+installers/** -text
