@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "sourceAvailable": false,
+  "assets": [
+    {
+      "path": "C:\\Users\\pc\\Documents\\校园网共享安装包工程\\dist\\校园网共享助手-1.0.0-x64.exe",
+      "name": "校园网共享助手-1.0.0-x64.exe",
+      "sha256": "5be6251523d671d62375f292b3c4723de175460dbacdd4b7cd568512d5b4b0b8",
+      "bytes": 2199121
+    }
+  ],
+  "note": "Imported retained snapshot; original commit history unavailable. Runtime verification is not implied."
+}
